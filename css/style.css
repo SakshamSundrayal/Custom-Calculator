@@ -36,9 +36,9 @@ body {
     margin: 0 auto;
     background-color: white;
     width: 50vw;
-    height: 90vh;
+    height: 500px;
     border: 2px solid rgb(107, 103, 103);
-    padding: 0 2vw;
+    padding: 0 20px;
 }
 
 .container h1 {
@@ -52,7 +52,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     overflow: hidden;
     display: flex;
-    margin: 5vh 0;
+    margin: 20px 0;
     align-items: center;
 }
 
@@ -62,7 +62,7 @@ body {
 
 .num {
     padding: 0 10px;
-    height: 6vh;
+    height: 25px;
     width: 80%;
     font-size: 18px;
 }
@@ -92,7 +92,7 @@ button:hover {
     font-size: 25px;
     border-radius: 8px;
     border: 2px solid black;
-    width: 15vw;
-    height: 5vh;
+    height: 35px;
+    width: 250px;
     margin-left: .5vw;
 }

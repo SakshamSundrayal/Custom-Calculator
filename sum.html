@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator-Sum</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
 </head>
 
 <body>
@@ -17,6 +17,10 @@
         <a href="difference.html" class="nav-con">Subtraction</a>
         <a href="product.html" class="nav-con">Multiplication</a>
         <a href="quotient.html" class="nav-con">Division</a>
+    </div>
+    <div class="dropdown">
+        <button type="button" id="downBtn">&bigtriangledown;</button>
+        <button type="button" id="upBtn">&triangleq;</button>
     </div>
     <div class="container">
         <h1>CALCULATOR<span> - SUM<span></h1>
@@ -35,11 +39,10 @@
         <button id="add">SUM</button>
         <div class="inp res">
             Result :
-            <div id="ans">
-                
-            </div>
+            <div id="ans"></div>
         </div>
     </div>
-    <script src="sum.js"></script>
+    <script src="js/burger.js"></script>
+    <script src="js/sum.js"></script>
 </body>
 </html>

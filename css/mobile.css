@@ -1,5 +1,27 @@
+.dropdown {
+    display: none ;
+    width: 100%;
+}
+
+.dropdown button {
+    width: 100%;
+    background-color: rgb(24, 24, 73);
+    border-radius: 0;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
 @media screen and (max-width: 1075px) {
+    .dropdown {
+        display: block;
+    }
+    #downBtn {
+        display: block;
+    }
     .nav {
+        display: none;
         flex-direction: column;
     }
     .nav-con {
@@ -31,6 +53,6 @@
         font-size: 18px;
     }
     #ans {
-        width: 100px;
+        width: 250px;
     }
 }
